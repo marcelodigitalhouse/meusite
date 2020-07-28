@@ -3,23 +3,30 @@ html *{
     text-align: center;
 }
 
+h1 {
+    background-color: white;
+    margin: repeat(4, 150px);
+}
+
 nav a {
-    color: black;
-    text-decoration: none;
+    color: white;
+    background-color: rgb(56, 56, 71);
+    text-decoration: black;
+    font-size: 40px;
     margin: 0px 30px;
     margin-bottom: 20px;
 }
 
 #primeira:hover{
-    background-color: lightgreen;
+    background-color: red;
 }
     
 #segunda:hover{
-    background-color: rgb(207, 241, 112);
+    background-color: red;
 }
     
 #terceira:hover{
-    background-color: rgb(236, 183, 220);
+    background-color:red;
 }
 
 #titulo {
@@ -28,6 +35,11 @@ nav a {
 
 #texto1 {
     font-size: xx-large;
+    background-color: white;
+}
+
+#texto2 {
+    background-color: white;
 }
 
 div {
@@ -35,21 +47,56 @@ div {
 }
 
 #texto3 {
-    margin: 50px 40px 50px 40px;
+    margin: 10px 40px 50px 40px;
+    background-color: white;
+    font-size: 25px;
 }
 
 #texto4 {
     margin: 150px 50px 150px 50px;
+    background-color: white;
+    font-size: 25px;
 }
-*start {
+
+#texto5 {
+    margin: 150px 50px 150px 50px;
+    background-color: white;
+    font-size: 25px;
+}
+#start {
     margin: repeat(4, 100px);
 }
 
 .pics {
-    display: grid;
-    width: 50%;
+display: block;
+grid-template-columns: repeat(4, 100px);
+grid-template-rows: repeat(4, 100px);
+object-fit: cover;
+height: 150px;
+object-position: center;
 }
 
 .entrelinha {
     margin: 25px 0px 0px 0px;
+}
+
+body {
+    background-image: url(img/fundo.jpg)
+}
+
+#fundo {
+    opacity: 0;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+img {
+    width: 300px;
+}
+
+.first {
+    width: auto
 }
