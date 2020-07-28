@@ -1,0 +1,36 @@
+html *{
+    margin: 0px;
+    text-align: center;
+}
+
+#titulo {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#texto1 {
+    font-size: xx-large;
+}
+
+div {
+   margin: 100px;
+}
+
+#texto3 {
+    margin: 50px 40px 50px 40px;
+}
+
+#texto4 {
+    margin: 150px 50px 150px 50px;
+}
+*start {
+    margin: repeat(4, 100px);
+}
+
+.pics {
+    display: grid;
+    width: 50%;
+}
+
+.entrelinha {
+    margin: 25px 0px 0px 0px;
+}
